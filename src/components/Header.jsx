@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Header() {
-  return <div className=''>Header</div>
+  return <div className='text-red-600'>Header</div>
 }
 
 export default Header
