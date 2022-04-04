@@ -2,7 +2,7 @@ import Header from '../components/Header'
 
 export default function Home() {
   return (
-    <div className='bg-gray-100 dark:bg-gray-800 h-screen'>
+    <div className='bg-bgLight dark:bg-bgDark h-screen'>
       <Header />
     </div>
   )
