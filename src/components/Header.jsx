@@ -1,17 +1,21 @@
-import Link from 'next/link'
 import DarkMode from './DarkMode'
+import Logo from './Logo'
+import Link from 'next/link'
+import DivLink from './DivLink'
 
 function Header() {
   return (
     <div className='pb-20'>
-      <div className='flex fixed w-full'>
-        <div className='flex justify-start w-full p-7 bg-transparent'>
-          <Link href='/'>Logo</Link>
-          <div className='flex justify-end w-full gap-5'>
-            <Link href='/'>Home</Link>
-            <Link href='/about'>About</Link>
-            <Link href='/porfolio'>Porfolio</Link>
-            <Link href='/projects'>Projects</Link>
+      <div className='flex fixed align w-full px-5'>
+        <div className='flex justify-start w-full bg-transparent'>
+          <div className='pt-2'>
+            <Logo />
+          </div>
+          <div className='flex justify-end w-full gap-5 items-center'>
+            <DivLink title='Home' to='/' xClass='' />
+            <DivLink title='About' to='/' xClass='' />
+            <DivLink title='Portfolio' to='/' xClass='' />
+            <DivLink title='Projects' to='/' xClass='' />
             <DarkMode />
           </div>
         </div>
