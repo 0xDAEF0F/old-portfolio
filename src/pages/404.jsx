@@ -21,7 +21,8 @@ export default function page404() {
             <div className='mt-10 flex space-x-3 sm:border-transparent sm:pl-6'>
               <a
                 href='/'
-                className='inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-light-bg bg-light-primary dark:bg-dark-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'>
+                className='inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-light-bg dark:text-dark-bg
+                bg-light-primary dark:bg-dark-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'>
                 Go back home
               </a>
             </div>

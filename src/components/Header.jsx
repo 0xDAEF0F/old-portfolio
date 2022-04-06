@@ -13,9 +13,9 @@ function Header() {
           </div>
           <div className='flex justify-end w-full gap-5 items-center'>
             <DivLink title='Home' to='/' xClass='' />
-            <DivLink title='About' to='/' xClass='' />
-            <DivLink title='Portfolio' to='/' xClass='' />
-            <DivLink title='Projects' to='/' xClass='' />
+            <DivLink title='About' to='/about' xClass='' />
+            <DivLink title='Portfolio' to='/portfolio' xClass='' />
+            <DivLink title='Projects' to='/projects' xClass='' />
             <DarkMode />
           </div>
         </div>
