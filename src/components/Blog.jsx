@@ -87,7 +87,7 @@ export default function Example() {
             Recent publications
           </h2>
         </div>
-        <div className='mt-6 grid gap-16 pt-12 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 lg:gap-x-5 lg:gap-y-12 '>
+        <div className='mt-6 grid gap-16 pt-12 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 lg:gap-x-5 lg:gap-y-12 '>
           {posts.map((post) => (
             <div key={post.title} className='p-3'>
               <div className='flex-shrink-0'>
