@@ -87,18 +87,21 @@ export default function Example() {
             Recent publications
           </h2>
         </div>
-        <div className='mt-6 grid gap-16 pt-12 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 lg:gap-x-5 lg:gap-y-12 '>
+        <div className='mt-6 grid gap-16 pt-12 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 lg:gap-x-5 lg:gap-y-12'>
           {posts.map((post) => (
-            <div key={post.title} className='p-3'>
+            <a
+              href={post.href}
+              key={post.title}
+              className='p-3 hover:scale-105 transition duration-300'>
               <div className='flex-shrink-0'>
                 <img
-                  className='h-48 w-full object-cover'
+                  className='h-48 w-full object-cover rounded-md'
                   src={post.imageUrl}
                   alt=''
                 />
               </div>
               <div>
-                <a href={post.category.href} className='inline-block'>
+                <div className='inline-block'>
                   <span
                     className={classNames(
                       'text-light-primary dark:text-dark-primary  ',
@@ -106,14 +109,14 @@ export default function Example() {
                     )}>
                     {post.category.name}
                   </span>
-                </a>
+                </div>
               </div>
-              <a href={post.href} className='block mt-1'>
+              <div className='block mt-1'>
                 <p className='text-xl font-bold'>{post.title}</p>
                 <p className='mt-3 text-base text-light-forth dark:text-dark-forth'>
                   {post.description}
                 </p>
-              </a>
+              </div>
               <div className='mt-6 flex items-center'>
                 <div className='flex-shrink-0'></div>
 
@@ -125,7 +128,7 @@ export default function Example() {
                   </span>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
