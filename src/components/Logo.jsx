@@ -9,7 +9,7 @@ function Logo() {
     <Link href='/'>
       <Image
         src={atLogo}
-        alt='Alex logo'
+        alt='alex logo'
         width={80}
         height={80}
         className='cursor-pointer'

@@ -1,4 +1,3 @@
-import DarkMode from './DarkMode'
 import Logo from './Logo'
 import DivLink from './DivLink'
 
@@ -10,11 +9,9 @@ function Header() {
           <Logo />
         </div>
         <div className='flex justify-end w-full gap-5 items-center'>
-          <DivLink title='Home' to='/' xClass='' />
-          <DivLink title='About' to='/about' xClass='' />
-          <DivLink title='Blog' to='/blog' xClass='' />
-          <DivLink title='Projects' to='/projects' xClass='' />
-          <DarkMode />
+          <DivLink title='About' to='/about' xClass='text-white' />
+          <DivLink title='Blog' to='/blog' xClass='text-white' />
+          <DivLink title='Projects' to='/projects' xClass='text-white' />
         </div>
       </div>
     </div>

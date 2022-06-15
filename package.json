@@ -6,13 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format:check": "",
+    "format:write": ""
   },
   "dependencies": {
     "@headlessui/react": "^1.5.0",
-    "@tailwindcss/typography": "^0.5.2",
     "next": "12.1.4",
-    "next-themes": "^0.1.1",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-icons": "^4.3.1"
@@ -22,6 +22,7 @@
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.4",
     "postcss": "^8.4.12",
+    "prettier": "^2.7.0",
     "tailwindcss": "^3.0.23"
   }
 }

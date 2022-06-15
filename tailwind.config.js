@@ -3,36 +3,14 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
   ],
-  darkMode: 'class',
   theme: {
-    colors: {
-      light: {
-        bg: '#e8e8e8',
+    extend: {
+      colors: {
         primary: '#C3073F',
-        secondary: '#950740',
-        third: '#6F2232',
-        forth: '#4E4E50',
-        danger: '#e63946',
-        transparent: 'transparent',
-      },
-      dark: {
+        fourth: '#BDBDBE',
         bg: '#1A1A1D',
-        primary: '#f60950',
-        secondary: '#c30953',
-        third: '#a03147',
-        forth: '#BDBDBE',
-        danger: '#e63946',
-        transparent: 'transparent',
-      },
-      other: {
-        green: '#00ff00',
-        indigo: '#4b0082',
-        pink: '#ff69b4',
       },
     },
-    typography: (theme) => ({}),
-    extend: {},
   },
-  variants: {},
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [],
 }
