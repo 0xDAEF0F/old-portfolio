@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 const posts = [
   {
     title: 'Boost your conversion rate',
@@ -74,16 +73,12 @@ const posts = [
   },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
-
 export default function Example() {
   return (
     <div className='pt-32 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8'>
       <div className='sm:max-w-xl md:max-w-3xl mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl'>
         <div>
-          <h2 className='text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl'>
+          <h2 className='text-3xl tracking-tight font-extrabold text-white sm:text-4xl'>
             Recent publications
           </h2>
         </div>
@@ -102,30 +97,27 @@ export default function Example() {
               </div>
               <div>
                 <div className='inline-block'>
-                  <span
-                    className={classNames(
-                      'text-light-primary dark:text-dark-primary  ',
-                      'inline-flex items-center pt-3 rounded-full text-sm font-medium'
-                    )}>
+                  <span className='text-primary inline-flex items-center pt-3 rounded-full text-sm font-medium'>
                     {post.category.name}
                   </span>
                 </div>
               </div>
               <div className='block mt-1'>
-                <p className='text-xl font-bold'>{post.title}</p>
-                <p className='mt-3 text-base text-light-forth dark:text-dark-forth'>
+                <p className='text-xl text-white font-bold'>{post.title}</p>
+                <p className='mt-3 text-base  text-fourth'>
                   {post.description}
                 </p>
               </div>
               <div className='mt-6 flex items-center'>
                 <div className='flex-shrink-0'></div>
-
                 <div className='flex space-x-1 text-sm'>
-                  <time dateTime={post.datetime}>{post.date}</time>
-                  <span aria-hidden='true'>&middot;</span>
-                  <span className='dark:text-dark-secondary text-light-secondary'>
-                    {post.readingTime} read
+                  <time className='text-white' dateTime={post.datetime}>
+                    {post.date}
+                  </time>
+                  <span aria-hidden='true' className='text-white'>
+                    &middot;
                   </span>
+                  <span className='text-gray-400'>{post.readingTime} read</span>
                 </div>
               </div>
             </a>
