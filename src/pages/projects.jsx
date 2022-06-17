@@ -28,7 +28,7 @@ export default function Projects() {
         <div className='text-fourth max-w-3xl mx-auto border-yellow-300 border mt-7'>
           <a
             className='text-xl hover:text-blue-400'
-            href='#'
+            href='https://looksrare-volume-tracker.herokuapp.com/graphql'
             target='_blank'
             rel='noopener noreferrer'>
             LooksRare Analytics
