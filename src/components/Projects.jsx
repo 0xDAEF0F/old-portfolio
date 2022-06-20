@@ -1,7 +1,5 @@
 import Image from 'next/image'
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
+
 import algoSolver from '../assets/algosolverSS.png'
 import set from '../assets/setSS.png'
 import { AiFillGithub } from 'react-icons/ai'
