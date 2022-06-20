@@ -4,7 +4,7 @@ function Home() {
       <p className='text-white'>Hi,</p>
       <div className='flex'>
         <p className='text-white'>I'm&nbsp;</p>
-        <p className='text-primary'>alex.</p>
+        <p className='text-primary'>Alex.</p>
       </div>
       <p className='mt-3 text-white'>A JavaScript &</p>
       <p className='text-white'>Solidity Developer</p>

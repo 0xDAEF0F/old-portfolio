@@ -2,7 +2,7 @@ import Header from '../components/Header'
 import Home from '../components/Home'
 export default function index() {
   return (
-    <div className='bg-black h-screen'>
+    <div className='bg-bg h-screen'>
       <Header />
       <Home />
       <footer className='bg-slate-100 fixed bottom-0 w-full'>

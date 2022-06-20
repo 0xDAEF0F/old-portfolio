@@ -3,7 +3,7 @@ import DivLink from './DivLink'
 
 function Header() {
   return (
-    <div className='flex fixed align w-full px-5'>
+    <div className='flex fixed align w-full px-5 z-50'>
       <div className='flex justify-start w-full backdrop-blur-sm'>
         <div className='pt-2'>
           <Logo />

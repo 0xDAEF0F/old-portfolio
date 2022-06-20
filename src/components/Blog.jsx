@@ -73,7 +73,7 @@ const posts = [
   },
 ]
 
-export default function Example() {
+export default function Blog() {
   return (
     <div className='pt-32 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8'>
       <div className='sm:max-w-xl md:max-w-3xl mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl'>
