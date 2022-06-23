@@ -9,7 +9,7 @@ function Header() {
           <Logo />
         </div>
         <div className='flex justify-end w-full gap-5 items-center'>
-          <DivLink title='About' to='/about' xClass='text-white' />
+          <DivLink title='About Me' to='/about-me' xClass='text-white' />
           <DivLink title='Blog' to='/blog' xClass='text-white' />
           <DivLink title='Projects' to='/projects' xClass='text-white' />
         </div>
