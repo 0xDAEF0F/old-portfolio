@@ -3,8 +3,12 @@ import { AiOutlineLinkedin } from 'react-icons/ai'
 function Footer() {
   return (
     <footer className='bg-slate-100 fixed bottom-0 w-full'>
-      <div className='flex justify-evenly space-x-3 items-center h-12 text-gray-400 hover:text-gray-600'>
-        <a target='_blank' key='GitHub' href='https://github.com/radaemon'>
+      <div className='flex justify-evenly space-x-3 items-center h-12 text-gray-400'>
+        <a
+          target='_blank'
+          key='GitHub'
+          href='https://github.com/radaemon'
+          className='hover:text-gray-600'>
           <span className='sr-only'>GitHub</span>
           <svg
             fill='currentColor'
@@ -21,6 +25,7 @@ function Footer() {
         <a
           target='_blank'
           key='LinkedIn'
+          className='hover:text-gray-600'
           href='https://www.linkedin.com/in/alextapia2'>
           <span className='sr-only'>GitHub</span>
           <AiOutlineLinkedin size={23} />

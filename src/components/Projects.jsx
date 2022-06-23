@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import algoSolver from '../assets/algosolverSS.png'
 import set from '../assets/setSS.png'
-import looks from '../assets/lr-image.svg'
+import looks from '../assets/lr-image.png'
 import puppeteer from '../assets/puppeteer.png'
 import { AiFillGithub } from 'react-icons/ai'
 import { CgWebsite } from 'react-icons/cg'
@@ -11,6 +11,7 @@ const projects = [
   {
     id: 1,
     name: 'AlgoSolver',
+    stack: 'React.js',
     href: 'https://jovial-kirch-754800.netlify.app/',
     github: 'https://github.com/radaemon/algoheart',
     description:
@@ -22,6 +23,7 @@ const projects = [
   {
     id: 2,
     name: 'Set Game',
+    stack: 'React.js',
     href: 'https://tender-allen-b2ffa0.netlify.app/',
     github: 'https://github.com/radaemon/set-higo',
     description:
@@ -32,6 +34,7 @@ const projects = [
   {
     id: 3,
     name: 'LooksRare Analytics',
+    stack: 'Express - GraphQL | MySQL | Prisma | Nexus',
     href: 'https://looksrare-volume-tracker.herokuapp.com/graphql',
     github: 'https://github.com/radaemon/looksrare-volumes',
     description:
@@ -43,6 +46,7 @@ const projects = [
   {
     id: 4,
     name: 'Floor Price Web-Scraper',
+    stack: 'React.js | Puppeteer | Prisma | Express | PostgreSQL',
     href: '',
     github: 'https://github.com/radaemon/challenge-sell-wall',
     description:
@@ -60,7 +64,7 @@ function Projects() {
         <h2 className='text-3xl tracking-tight font-extrabold text-white sm:text-4xl mb-6'>
           My Projects
         </h2>
-        <div className='grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:gap-x-8 pt-12'>
+        <div className='grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-10 lg:grid-cols-3 xl:gap-x-16 pt-12'>
           {projects.map((project) => (
             <div key={project.id} className='group p-6 bg-black rounded-2xl'>
               <div className='text-fourth flex justify-between mb-4'>
@@ -78,7 +82,7 @@ function Projects() {
               <Image
                 src={project.imageSrc}
                 alt={project.imageAlt}
-                className='object-center object-cover  rounded-lg'
+                className='object-center object-cover rounded-lg'
               />
 
               <h3 className='text-base font-bold text-secondary mt-2'>
@@ -87,6 +91,10 @@ function Projects() {
 
               <p className='mt-1 text-sm italic text-gray-300'>
                 {project.description}
+              </p>
+
+              <p className='mt-3 font-semibold text-sm text-center text-gray-500'>
+                {project.stack}
               </p>
             </div>
           ))}

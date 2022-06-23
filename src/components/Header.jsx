@@ -11,6 +11,12 @@ function Header() {
         <div className='flex justify-end w-full gap-5 items-center'>
           <DivLink title='About Me' to='/about-me' xClass='text-white' />
           <DivLink title='Projects' to='/projects' xClass='text-white' />
+
+          <a
+            href='mailto:amojarrot@gmail.com'
+            className='cursor-pointer block text-base text-white hover:text-primary'>
+            Contact
+          </a>
         </div>
       </div>
     </div>
