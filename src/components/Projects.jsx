@@ -23,18 +23,18 @@ const projects = [
   {
     id: 2,
     name: 'Set Game',
-    stack: 'React.js',
+    stack: 'React.js | React Testing Library',
     href: 'https://tender-allen-b2ffa0.netlify.app/',
     github: 'https://github.com/radaemon/set-higo',
     description:
-      'The purpose of this game is to make sets of cards that complete a certain criteria. It is a very common featured in The New York Times.',
+      'The purpose of this game is to make sets of cards that complete a certain criteria. It is featured in The New York Times.',
     imageSrc: set,
     imageAlt: 'Paper card sitting upright in walnut card holder on desk.',
   },
   {
     id: 3,
     name: 'LooksRare Analytics',
-    stack: 'Express - GraphQL | MySQL | Prisma | Nexus',
+    stack: 'Express-GraphQL | MySQL | Prisma.js | Nexus.js',
     href: 'https://looksrare-volume-tracker.herokuapp.com/graphql',
     github: 'https://github.com/radaemon/looksrare-volumes',
     description:
@@ -46,7 +46,7 @@ const projects = [
   {
     id: 4,
     name: 'Floor Price Web-Scraper',
-    stack: 'React.js | Puppeteer | Prisma | Express | PostgreSQL',
+    stack: 'React.js | Puppeteer | Express.js | PostgresSQL',
     href: '',
     github: 'https://github.com/radaemon/challenge-sell-wall',
     description:
