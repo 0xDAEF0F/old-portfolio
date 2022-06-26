@@ -3,8 +3,8 @@ import DivLink from './DivLink'
 
 function Header() {
   return (
-    <div className='flex fixed align w-full px-5 z-50'>
-      <div className='flex justify-start w-full backdrop-blur-sm'>
+    <div className='flex fixed align w-full z-50'>
+      <div className='flex justify-start w-full backdrop-blur-sm backdrop-brightness-90'>
         <div className='pt-2'>
           <Logo />
         </div>
@@ -13,7 +13,7 @@ function Header() {
           <DivLink title='Projects' to='/projects' xClass='text-white' />
           <a
             href='mailto:aletapia@proton.me'
-            className='cursor-pointer block text-base text-white hover:text-primary'>
+            className='cursor-pointer block text-base text-white hover:text-primary mr-5'>
             Contact
           </a>
         </div>
