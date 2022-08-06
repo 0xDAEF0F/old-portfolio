@@ -4,12 +4,24 @@ import algoSolver from '../assets/algosolverSS.png'
 import set from '../assets/setSS.png'
 import looks from '../assets/lr-image.png'
 import puppeteer from '../assets/puppeteer.png'
+import reliks from '../assets/reliks-screenshot.png'
 import { AiFillGithub } from 'react-icons/ai'
 import { CgWebsite } from 'react-icons/cg'
 
 const projects = [
   {
     id: 1,
+    name: 'Reliks',
+    stack: 'React.js | Moralis | Hardhat | TailwindCSS',
+    href: 'https://reliks.xyz',
+    github: 'https://github.com/radaemon/Acme',
+    description:
+      'Reliks is a platform for content creators to connect with their fan base, get supported, and in return, grant rewards in the form of NFTs, fungible tokens, and physical items.',
+    imageSrc: reliks,
+    imageAlt: 'Reliks ScreenShot HomePage.',
+  },
+  {
+    id: 2,
     name: 'AlgoSolver',
     stack: 'React.js',
     href: 'https://jovial-kirch-754800.netlify.app/',
@@ -21,7 +33,7 @@ const projects = [
       'Person using a pen to cross a task off a projectivity paper card.',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Set Game',
     stack: 'React.js | React Testing Library',
     href: 'https://tender-allen-b2ffa0.netlify.app/',
@@ -32,7 +44,7 @@ const projects = [
     imageAlt: 'Paper card sitting upright in walnut card holder on desk.',
   },
   {
-    id: 3,
+    id: 4,
     name: 'LooksRare Analytics',
     stack: 'Express-GraphQL | MySQL | Prisma.js | Nexus.js',
     href: 'https://looksrare-volume-tracker.herokuapp.com/graphql',
@@ -44,7 +56,7 @@ const projects = [
       'Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Floor Price Web-Scraper',
     stack: 'React.js | Puppeteer | Express.js | PostgresSQL',
     href: '',
