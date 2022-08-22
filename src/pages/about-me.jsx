@@ -17,20 +17,19 @@ export default function aboutMe() {
               <h2 className='text-3xl text-primary italic tracking-tight font-extrabold sm:text-4xl mb-6'>
                 A Tidbit
               </h2>
-              <p className='text-white  text-justify'>
-                I consider myself to be a person that wakes up every day
-                intending to accomplish what I proposed throughout my day.
+              <p className='text-white'>
+                I am an overly pragmatic person that focuses on getting the job.
                 Competing against myself and ignoring outside noise helps me
                 stay sane and focused during these challenging times.
               </p>
               <br />
-              <p className='text-white text-justify'>
-                I believe in maximizing output value to society by approaching
-                problems pragmatically and objectively as well as:
+              <p className='text-white'>
+                I believe in maximizing value to society by approaching problems
+                pragmatically and objectively as well as:
               </p>
               <ul className='text-gray-300 list-disc pl-10 pt-2'>
-                <li>Building and working on innate/natural skills.</li>
-                <li>If you love your work, it won't feel like drudgery.</li>
+                <li>Building and improving on innate/natural skills.</li>
+                <li>If you love your work, it will never feel like so.</li>
               </ul>
               <br />
               <h2 className='text-white text-3xl tracking-tight font-extrabold sm:text-4xl mb-6'>
@@ -39,21 +38,20 @@ export default function aboutMe() {
               <h3 className='text-secondary text-2xl font-semibold'>
                 Technology
               </h3>
-              <p className='text-white  text-justify'>
-                Any challenging software problem that involves abstraction,
-                composition, and complexity will always thrill me. However, the
-                ecosystems where I'm most comfortable are JavaScript, Shell, and
-                Solidity.
+              <p className='text-white'>
+                Any challenging problem that involves abstraction, and
+                composition will always thrill me. However, the ecosystems where
+                I'm most fluid in are: JavaScript, Solidity, and the CLI.
               </p>
               <br />
               <h3 className='text-secondary text-2xl font-semibold'>
                 Soft Skills
               </h3>
-              <p className='text-white text-justify'>
+              <p className='text-white'>
                 Any successful organization demands effective communication
-                amongst colleagues. Countless business endeavors throughout my
-                career have propelled my interpersonal skills by trial and
-                error.
+                amongst participants. Countless of business endeavors throughout
+                my career have refined my interpersonal skills and business
+                acumen.
               </p>
             </div>
           </div>

@@ -5,6 +5,7 @@ import set from '../assets/setSS.png'
 import looks from '../assets/lr-image.png'
 import puppeteer from '../assets/puppeteer.png'
 import reliks from '../assets/reliks-screenshot.png'
+import foundry from '../assets/foundry-banner.png'
 import { AiFillGithub } from 'react-icons/ai'
 import { CgWebsite } from 'react-icons/cg'
 
@@ -12,7 +13,7 @@ const projects = [
   {
     id: 1,
     name: 'Reliks',
-    stack: 'React.js | Moralis | Hardhat | TailwindCSS',
+    stack: 'Moralis | Hardhat | Solidity',
     href: 'https://reliks.xyz',
     github: 'https://github.com/radaemon/Acme',
     description:
@@ -22,6 +23,17 @@ const projects = [
   },
   {
     id: 2,
+    name: 'NFT - VRF Chainlink',
+    stack: 'Foundry | Solidity',
+    href: '',
+    github: 'https://github.com/radaemon/my-nft-with-vrf',
+    description:
+      'ERC-721 custom contract with chainlink VRF as a dependency to provide randomization when minting tokens.',
+    imageSrc: foundry,
+    imageAlt: 'Foundry Image.',
+  },
+  {
+    id: 3,
     name: 'AlgoSolver',
     stack: 'React.js',
     href: 'https://jovial-kirch-754800.netlify.app/',
@@ -33,7 +45,7 @@ const projects = [
       'Person using a pen to cross a task off a projectivity paper card.',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Set Game',
     stack: 'React.js | React Testing Library',
     href: 'https://tender-allen-b2ffa0.netlify.app/',
@@ -44,7 +56,7 @@ const projects = [
     imageAlt: 'Paper card sitting upright in walnut card holder on desk.',
   },
   {
-    id: 4,
+    id: 5,
     name: 'LooksRare Analytics',
     stack: 'Express-GraphQL | MySQL | Prisma.js | Nexus.js',
     href: 'https://looksrare-volume-tracker.herokuapp.com/graphql',
@@ -56,7 +68,7 @@ const projects = [
       'Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Floor Price Web-Scraper',
     stack: 'React.js | Puppeteer | Express.js | PostgresSQL',
     href: '',
