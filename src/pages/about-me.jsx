@@ -12,15 +12,15 @@ export default function aboutMe() {
           <div class='max-h-0 md:max-h-96 md:h-screen'>
             <BackgroundAnimation />
           </div>
-          <div class='flex p-10'>
-            <div class='mb-auto mt-auto max-w-lg'>
+          <div className='flex p-10'>
+            <div className='mb-auto mt-auto max-w-lg'>
               <h2 className='text-3xl text-primary italic tracking-tight font-extrabold sm:text-4xl mb-6'>
-                A Tidbit
+                About Me
               </h2>
               <p className='text-white'>
-                I am an overly pragmatic person that focuses on getting the job.
-                Competing against myself and ignoring outside noise helps me
-                stay sane and focused during these challenging times.
+                I am an overly pragmatic person that focuses on getting the job
+                done. Competing against myself and ignoring outside noise helps
+                me stay sane and focused during these challenging times.
               </p>
               <br />
               <p className='text-white'>
@@ -39,9 +39,9 @@ export default function aboutMe() {
                 Technology
               </h3>
               <p className='text-white'>
-                Any challenging problem that involves abstraction, and
+                Any challenging problem that involves abstraction and
                 composition will always thrill me. However, the ecosystems where
-                I'm most fluid in are: JavaScript, Solidity, and the CLI.
+                I'm most fluid are JavaScript, Solidity, and CLI.
               </p>
               <br />
               <h3 className='text-secondary text-2xl font-semibold'>
@@ -49,9 +49,8 @@ export default function aboutMe() {
               </h3>
               <p className='text-white'>
                 Any successful organization demands effective communication
-                amongst participants. Countless of business endeavors throughout
-                my career have refined my interpersonal skills and business
-                acumen.
+                amongst participants. Countless business endeavors throughout my
+                career have refined my interpersonal skills and business acumen.
               </p>
             </div>
           </div>
