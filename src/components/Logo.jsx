@@ -1,4 +1,5 @@
 import atLogo from '../assets/icons/atLogo.png'
+import avatar from '../assets/avatar.png'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -6,13 +7,13 @@ import React from 'react'
 
 function Logo() {
   return (
-    <Link href='/'>
+    <Link href='/' className=''>
       <Image
-        src={atLogo}
-        alt='alex logo'
-        width={80}
-        height={80}
-        className='cursor-pointer'
+        src={avatar}
+        alt='logo'
+        width={70}
+        height={70}
+        className='cursor-pointer rounded-full'
       />
     </Link>
   )

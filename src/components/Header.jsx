@@ -12,7 +12,7 @@ function Header() {
           <DivLink title='About Me' to='/about-me' xClass='text-white' />
           <DivLink title='Projects' to='/projects' xClass='text-white' />
           <a
-            href='mailto:aletapia@proton.me'
+            href='mailto:0xDAEF0F@proton.me'
             className='cursor-pointer block text-base text-white hover:text-primary mr-5'>
             Contact
           </a>

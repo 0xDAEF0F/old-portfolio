@@ -1,13 +1,13 @@
-import { AiOutlineLinkedin } from 'react-icons/ai'
+import { BsMedium } from 'react-icons/bs'
 
 function Footer() {
   return (
-    <footer className='bg-slate-100 fixed bottom-0 w-full'>
+    <footer className='bg-slate-200 fixed bottom-0 w-full'>
       <div className='flex justify-evenly space-x-3 items-center h-12 text-gray-400'>
         <a
           target='_blank'
           key='GitHub'
-          href='https://github.com/radaemon'
+          href='https://github.com/0xDAEF0F'
           className='hover:text-gray-600'>
           <span className='sr-only'>GitHub</span>
           <svg
@@ -26,9 +26,9 @@ function Footer() {
           target='_blank'
           key='LinkedIn'
           className='hover:text-gray-600'
-          href='https://www.linkedin.com/in/alextapia2'>
-          <span className='sr-only'>GitHub</span>
-          <AiOutlineLinkedin size={23} />
+          href='https://medium.com/@0xDAEF0F'>
+          <span className='sr-only'>LinkedIn</span>
+          <BsMedium size={23} />
         </a>
       </div>
     </footer>

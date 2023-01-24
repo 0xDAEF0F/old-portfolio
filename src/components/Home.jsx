@@ -4,10 +4,10 @@ function Home() {
       <p className='text-white'>Hi,</p>
       <div className='flex'>
         <p className='text-white'>I'm&nbsp;</p>
-        <p className='text-primary'>Alex.</p>
+        <p className='text-primary'>daemon.</p>
       </div>
-      <p className='mt-3 text-white'>TypeScript &</p>
-      <p className='text-white'>Solidity Developer</p>
+      <p className='mt-3 text-white'>Blockchain &</p>
+      <p className='text-white'>Solidity Engineer</p>
     </div>
   )
 }
