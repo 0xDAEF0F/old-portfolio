@@ -17,10 +17,11 @@ export default function aboutMe() {
                 About Me
               </h2>
               <p className='text-white'>
-                I am a mission-centric individual focused on building scalable
-                and rich web applications. Competing against myself and being
-                critical of my day's work allows me to stay competitive and
-                relevant during these challenging times.
+                I am a Software Engineer, Solidity developer, and Ethereum
+                security researcher. Avid problem solver and functional
+                programming enthusiast (oh no, another Haskell fanboy). I enjoy
+                watching comforting TV shows, meditating, and taking nature
+                walks in my free time.
               </p>
               <br />
               <h2 className='text-white text-3xl tracking-tight font-extrabold sm:text-4xl mb-6'>
@@ -30,20 +31,23 @@ export default function aboutMe() {
                 Technology
               </h3>
               <p className='text-white'>
-                Any challenging problem that involves abstraction and
-                decomposition will always appeal to me. However, the domain
-                where I'm the most fluent in are web applications.
+                I have real-world experience working with complex systems and
+                applications encompassing a wide range of technologies, e.g.,
+                PHP, JavaScript, Solidity. I am not afraid to dive into the low
+                level nitty gritty of things to grasp a more in-depth knowledge
+                of how things work under the hood.
               </p>
               <br />
               <h3 className='text-secondary text-2xl font-semibold'>
                 Soft Skills
               </h3>
               <p className='text-white'>
-                My software career has taught me that being able to communicate
-                effectively in a team is crucial to an organizations success.
-                Specially when working remotely and with people from other
+                My career has taught me that being able to communicate
+                effectively in a team is crucial to an organization's success,
+                especially when working remotely and with people from other
                 timezones.
               </p>
+              <br />
             </div>
           </div>
         </div>

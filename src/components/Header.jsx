@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='flex fixed align w-full z-50'>
       <div className='flex justify-start w-full backdrop-blur-sm backdrop-brightness-90'>
-        <div className='pt-2'>
+        <div className='pt-2 ml-2 mt-1'>
           <Logo />
         </div>
         <div className='flex justify-end w-full gap-5 items-center'>
