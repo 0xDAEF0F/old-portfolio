@@ -6,8 +6,8 @@ function Home() {
         <p className='text-white'>I'm&nbsp;</p>
         <p className='text-primary'>daemon.</p>
       </div>
-      <p className='mt-4 text-white mb-1'>Solidity Developer &</p>
-      <p className='text-primary inline'>Ethereum </p>
+      <p className='mt-4 text-white mb-1'>Solidity Engineer &</p>
+      <p className='text-primary inline'>Security </p>
       <p className='text-white inline'>Researcher</p>
     </div>
   )

@@ -1,10 +1,14 @@
 import Header from '../components/Header'
+import Head from 'next/head'
 import Footer from '../components/Footer'
 import BackgroundAnimation from '../components/BackgroundAnimation'
 
 export default function aboutMe() {
   return (
     <>
+      <Head>
+        <title>About Me • 0xDAEF0F</title>
+      </Head>
       <Header />
       <div className='bg-bg h-max pt-24 pb-10'>
         <div className='grid grid-cols-1  md:grid-cols-2 md:h-screen'>
